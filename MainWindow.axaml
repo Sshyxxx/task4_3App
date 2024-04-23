@@ -1,0 +1,30 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="task4_3App.MainWindow"
+        Title="template">
+	<Canvas Width="1150">
+		<Menu Width="1150" Canvas.Top="2" BorderThickness="0, 2, 0, 2" BorderBrush="Black">
+			<MenuItem Header="_Home"/>
+			<MenuItem Header="_About"/>
+			<MenuItem Header="_Blog's Main Topic 1"/>
+			<MenuItem Header="_Blog's Main Topic 2"/>
+			<MenuItem Header="_Blog's Main Topic 3"/>
+			<MenuItem Header="_Associated Blogs"/>
+			<MenuItem Header="RSS" Margin="300, 0, 0, 0"/>
+		</Menu>
+		<Canvas Background="Aqua" Canvas.Top="42" 
+				Width="800" Height="500">
+			<TextBlock Canvas.Left="20" >Article 1</TextBlock>
+			<TextBlock Canvas.Left="20"  Canvas.Top="50"  >
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			</TextBlock>
+		</Canvas>
+		<Canvas Background="Beige" Canvas.Top="42" Canvas.Left="810"
+				Width="340" Height="500">
+
+		</Canvas>
+	</Canvas>
+</Window>

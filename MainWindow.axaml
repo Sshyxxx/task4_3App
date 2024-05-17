@@ -5,6 +5,7 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="task4_3App.MainWindow"
         Title="template">
+	
 	<Canvas Width="1150">
 		<Menu Width="1150" Canvas.Top="2" BorderThickness="0, 2, 0, 2" BorderBrush="Black">
 			<MenuItem Header="_Home"/>
@@ -15,16 +16,43 @@
 			<MenuItem Header="_Associated Blogs"/>
 			<MenuItem Header="RSS" Margin="300, 0, 0, 0"/>
 		</Menu>
-		<Canvas Background="Aqua" Canvas.Top="42" 
+		<Canvas Margin="20" Canvas.Top="42" 
 				Width="800" Height="500">
 			<TextBlock Canvas.Left="20" >Article 1</TextBlock>
 			<TextBlock Canvas.Left="20"  Canvas.Top="50"  >
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 			</TextBlock>
-		</Canvas>
-		<Canvas Background="Beige" Canvas.Top="42" Canvas.Left="810"
-				Width="340" Height="500">
+			<TextBlock Canvas.Left="20"  Canvas.Top="80"  >
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			</TextBlock>
+			<TextBlock Canvas.Left="20"  Canvas.Top="110"  >
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			</TextBlock>
+			<Image Canvas.Bottom="80" Canvas.Left="200" Source="avares://task4_3App/Assets/Images/Image1.jpg" Width="400"/>
+			<TextBlock Canvas.Right="20" Canvas.Bottom="50" >Rate this Article *****</TextBlock>
 
 		</Canvas>
+		<Canvas Margin="20" Canvas.Top="42" Canvas.Left="810"
+				Width="340" Height="500">
+			<TextBlock Canvas.Top="20"  Text="Lorem ipsum dolor sit amet, consectetur"/>
+			<TextBlock Canvas.Top="50"  Text="adipiscing elit. consectetur adipiscing elit."/>
+			<TextBlock Canvas.Top="70" TextDecorations="3" Canvas.Right="70"  Text="More"/>
+
+			<TextBlock Canvas.Top="170"  Text="Lorem ipsum dolor sit amet, consectetur"/>
+			<TextBlock Canvas.Top="200"  Text="adipiscing elit. consectetur adipiscing elit."/>
+			<TextBlock Canvas.Top="220" TextDecorations="3" Canvas.Right="70"  Text="More"/>
+
+		</Canvas>
+		<Menu Canvas.Bottom="2" Canvas.Left="22">
+			<TextBlock>Tags:</TextBlock>
+			<MenuItem Header="Tag1"/>
+			<MenuItem Header="Tag2"/>
+			<MenuItem Header="Tag3"/>
+			<MenuItem Header="Tag4"/>
+			<MenuItem Header="Rate this aricle 5/5" Margin="0, 300, 0, 0"/>
+		</Menu>
 	</Canvas>
 </Window>
